@@ -3,5 +3,9 @@
 
 using apbd_git_labs;
 
-var avg = MathUtils.Avg([1, 2, 3, 4]);
+int[] numbers = [1, 2, 3, 4];
+var avg = MathUtils.Avg(numbers);
+var max = MathUtils.Max(numbers);
+
 Console.WriteLine($"Avg : {avg}");
+Console.WriteLine($"Max : {max}");

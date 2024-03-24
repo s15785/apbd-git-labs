@@ -7,4 +7,10 @@ public class MathUtils
         double sum = numbers.Sum();
         return sum / numbers.Length;
     }
+    
+    public static int Max(int [] numbers)
+    {
+        return numbers.Max();
+    }
+
 }
